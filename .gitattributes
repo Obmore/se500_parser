@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+*.xml text
+*.md text
+*.gitignore text
