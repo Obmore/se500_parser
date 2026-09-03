@@ -45,7 +45,7 @@ docker compose up -d
 Utána JDK 17 + Maven:
 
 ```
-mvn compile exec:java -Dexec.args=samples
+mvn compile exec:java "-Dexec.args=samples"
 ```
 
 A kapcsolat a `src/main/resources/jdbc.properties`-ben van (`localhost:5432`, user/jelszó: `se500`).
@@ -97,5 +97,5 @@ Limits are taken from the first file that sees a given pad. JDBC + StAX, one tra
 
 ```
 docker compose up -d
-mvn compile exec:java -Dexec.args=samples
+mvn compile exec:java "-Dexec.args=samples"
 ```
